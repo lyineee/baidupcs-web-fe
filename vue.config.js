@@ -1,6 +1,6 @@
 module.exports = {
     lintOnSave: false,
-    baseUrl: '/dist/',
+    baseUrl: './dist/',
     devServer: {
         proxy: {
             '/api': {
